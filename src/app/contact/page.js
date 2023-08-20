@@ -3,11 +3,6 @@ import { useState } from "react";
 import style from "./page.module.css";
 import Link from "next/link";
 
-export const metadata = {
-  title: "contact page",
-  description: "This is the Contact page",
-};
-
 const Page = () => {
   const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState("");
@@ -90,3 +85,8 @@ const Page = () => {
 };
 
 export default Page;
+
+export const metadata = {
+  title: "contact page",
+  description: "This is the Contact page",
+};
